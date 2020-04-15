@@ -1,0 +1,730 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Intel_Softwares/ModelSim
+Eaddr_gen
+Z0 w1583707120
+Z1 DPx4 work 10 config_pkg 0 22 ^aL;FX0XEMA`XKm1fo=523
+Z2 DPx4 work 8 user_pkg 0 22 EI_gSo?M5Mf7<C9[nk1lD3
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dD:/UF_HW/2020_spring_hw/EEL4720/Project/Modelsim
+Z7 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/addr_gen.vhd
+Z8 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/addr_gen.vhd
+l0
+L6
+VLUTNP1aboIPiXJAa2Jo1L0
+!s100 USEAo5^5]n8aNB?7c>OBD0
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1586232527
+!i10b 1
+Z11 !s108 1586232527.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/addr_gen.vhd|
+Z13 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/addr_gen.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abhv
+R1
+R2
+R3
+R4
+R5
+Z16 DEx4 work 8 addr_gen 0 22 LUTNP1aboIPiXJAa2Jo1L0
+l16
+L11
+V5Wj@HR54zg2>o[CNd<]@K2
+!s100 @GUY1HbOToSE`YE5MM:<93
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ecomparator
+Z17 w1586230474
+R3
+R4
+R5
+R6
+Z18 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/comparator.vhd
+Z19 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/comparator.vhd
+l0
+L5
+VN5dV=^GI]8k0MCzMXmP4o3
+!s100 WE2F71SLXh;GN@Ab8CF@73
+R9
+32
+R10
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/comparator.vhd|
+Z21 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/comparator.vhd|
+!i113 1
+R14
+R15
+Astr
+R3
+R4
+R5
+Z22 DEx4 work 10 comparator 0 22 N5dV=^GI]8k0MCzMXmP4o3
+l15
+L14
+VMb:L3?Udi2h>TUc]<molg2
+!s100 E;gk^lFz`eBFJAL;b`cAG0
+R9
+32
+R10
+!i10b 1
+R11
+R20
+R21
+!i113 1
+R14
+R15
+Pconfig_pkg
+R3
+R4
+R5
+w1585790440
+R6
+8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/config_pkg.vhd
+FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/config_pkg.vhd
+l0
+L8
+V^aL;FX0XEMA`XKm1fo=523
+!s100 V4>1_JGj]N3i<3Z^ok>?22
+R9
+32
+R10
+!i10b 1
+R11
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/config_pkg.vhd|
+!s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/config_pkg.vhd|
+!i113 1
+R14
+R15
+Ecounter
+Z23 w1585788854
+R3
+R4
+R5
+R6
+Z24 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/counter.vhd
+Z25 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/counter.vhd
+l0
+L5
+V`<PL_?IC?I8A16KzL7O>61
+!s100 jU@;GV3ANNUEgZki7Y1j:0
+R9
+32
+R10
+!i10b 1
+R11
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/counter.vhd|
+Z27 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/counter.vhd|
+!i113 1
+R14
+R15
+Astr
+R3
+R4
+R5
+Z28 DEx4 work 7 counter 0 22 `<PL_?IC?I8A16KzL7O>61
+l15
+L13
+VVS@30A96G7H3XORHfhYYK1
+!s100 ?QKWfgoJKN1PP11`LM<Ra0
+R9
+32
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Ectrl
+Z29 w1586220360
+R1
+R2
+Z30 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z31 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R3
+R4
+R5
+R6
+Z32 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ctrl.vhd
+Z33 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ctrl.vhd
+l0
+L13
+V_GH4WD4anF;J7_:D:]Wn?1
+!s100 Q`NYLZcz^Q:P>3g:=28W^3
+R9
+32
+Z34 !s110 1586232528
+!i10b 1
+Z35 !s108 1586232528.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ctrl.vhd|
+Z37 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ctrl.vhd|
+!i113 1
+R14
+R15
+Abhv
+R1
+R2
+R30
+R31
+R3
+R4
+R5
+Z38 DEx4 work 4 ctrl 0 22 _GH4WD4anF;J7_:D:]Wn?1
+l33
+L23
+VH=]5Pgk]8ef;@[nK>6hza0
+!s100 c2an=jO3TlDc4CLO;`N6=0
+R9
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R14
+R15
+Edatapath
+Z39 w1585790076
+R1
+R2
+R3
+R4
+R5
+R6
+Z40 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/datapath.vhd
+Z41 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/datapath.vhd
+l0
+L6
+Vz<YKT9RgmF[gQzHDN7XVg1
+!s100 _MX=m@9I1:`BllG@ADnEN0
+R9
+32
+R34
+!i10b 1
+R35
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/datapath.vhd|
+Z43 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/datapath.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+Z44 DEx4 work 5 ropuf 0 22 G73<z02RKL2VG`bFEOF3F0
+R1
+R2
+R3
+R4
+R5
+Z45 DEx4 work 8 datapath 0 22 z<YKT9RgmF[gQzHDN7XVg1
+l26
+L14
+Vm6LZiB2b[lW4A@BCNz@TK1
+!s100 l>8`[[]E<ccYd>`^Jg;Ca0
+R9
+32
+R34
+!i10b 1
+R35
+R42
+R43
+!i113 1
+R14
+R15
+Ememory_map
+Z46 w1586210570
+R2
+R1
+R3
+R4
+R5
+R6
+Z47 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd
+Z48 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd
+l0
+L18
+VG>P;cmS<U1W[MXK@aTiiO3
+!s100 3gj8I:b:5Xn7_Fo6XC^b32
+R9
+32
+R34
+!i10b 1
+R35
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd|
+Z50 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd|
+!i113 1
+R14
+R15
+Abhv
+R2
+R1
+R3
+R4
+R5
+Z51 DEx4 work 10 memory_map 0 22 G>P;cmS<U1W[MXK@aTiiO3
+l50
+L41
+Vd9:1D__<QJD73geWa@jV20
+!s100 S<WiT00iG>>m:e2O1P8;?0
+R9
+32
+R34
+!i10b 1
+R35
+R49
+R50
+!i113 1
+R14
+R15
+Emux_generator
+Z52 w1585786466
+R1
+R2
+R3
+R4
+R5
+R6
+Z53 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/mux_generator.vhd
+Z54 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/mux_generator.vhd
+l0
+L6
+VAQmenaaC3;FjDLTOR[;Ub2
+!s100 U_@zT>Y4APalE20mmoS450
+R9
+32
+R34
+!i10b 1
+R35
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/mux_generator.vhd|
+Z56 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/mux_generator.vhd|
+!i113 1
+R14
+R15
+Artl
+R1
+R2
+R3
+R4
+R5
+Z57 DEx4 work 13 mux_generator 0 22 AQmenaaC3;FjDLTOR[;Ub2
+l18
+L15
+VTXfJKdb1GGLmEc01^zLUz0
+!s100 `ATT[a>DS`A:ZSCnmGSPd3
+R9
+32
+R34
+!i10b 1
+R35
+R55
+R56
+!i113 1
+R14
+R15
+Eram
+Z58 w1585699850
+R3
+R4
+R5
+R6
+Z59 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ram.vhd
+Z60 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ram.vhd
+l0
+L45
+VZ<3k9z:cFaFiSAU8Oo<0E3
+!s100 7:]N4^oFLb_j=e8hT]fJ41
+R9
+32
+R34
+!i10b 1
+R35
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ram.vhd|
+Z62 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ram.vhd|
+!i113 1
+R14
+R15
+Async_read
+R3
+R4
+R5
+Z63 DEx4 work 3 ram 0 22 Z<3k9z:cFaFiSAU8Oo<0E3
+l122
+L117
+VnQ2KiMiWc`bFam`ch4]m_3
+!s100 I][0KfiOoGoS`T=bliEZX1
+R9
+32
+R34
+!i10b 1
+R35
+R61
+R62
+!i113 1
+R14
+R15
+Async_read_during_write
+R3
+R4
+R5
+R63
+l96
+L90
+VFM>5hUFlF_0BO`QbMB]B;0
+!s100 mPCRdjNLVTRiTo6]g8H9=2
+R9
+32
+R34
+!i10b 1
+R35
+R61
+R62
+!i113 1
+R14
+R15
+Aasync_read
+R3
+R4
+R5
+R63
+l71
+L66
+Vc_jEJjlbPoJB6dA>Q<<Vm1
+!s100 Ybo3jGKb7?bPE47hPW_zC3
+R9
+32
+R34
+!i10b 1
+R35
+R61
+R62
+!i113 1
+R14
+R15
+Ero
+Z64 w1586232519
+R30
+R31
+R3
+R4
+R5
+R6
+Z65 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/RO.vhd
+Z66 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/RO.vhd
+l0
+L7
+V]Z?d6jQ:MKfOFClenKQAg1
+!s100 [@Ro2lK_7K7[fKHlb2^^23
+R9
+32
+R34
+!i10b 1
+R35
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/RO.vhd|
+Z68 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/RO.vhd|
+!i113 1
+R14
+R15
+Abhv
+R30
+R31
+R3
+R4
+R5
+Z69 DEx4 work 2 ro 0 22 ]Z?d6jQ:MKfOFClenKQAg1
+l28
+L14
+VQK6zAjK5eEKJOHJFDHde43
+!s100 V[_Yb0=T0QI0<7]RiKzoA2
+R9
+32
+R34
+!i10b 1
+R35
+R67
+R68
+!i113 1
+R14
+R15
+Eropuf
+Z70 w1585788720
+R1
+R2
+R3
+R4
+R5
+R6
+Z71 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ROPUF.vhd
+Z72 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ROPUF.vhd
+l0
+L6
+VG73<z02RKL2VG`bFEOF3F0
+!s100 GjLeClHb9B_ZK?>05X0^A2
+R9
+32
+R34
+!i10b 1
+R35
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ROPUF.vhd|
+Z74 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ROPUF.vhd|
+!i113 1
+R14
+R15
+Abhv
+R22
+Z75 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z76 DEx4 work 5 timer 0 22 nAQe0QJEhP9JhbhGmjR`n1
+R28
+R57
+R30
+R31
+R69
+R1
+R2
+R3
+R4
+R5
+R44
+l22
+L15
+VXnfkR5cBk`JGO7hge:97I0
+!s100 ZdlPkOZRa^fSD^iIf9ccY2
+R9
+32
+R34
+!i10b 1
+R35
+R73
+R74
+!i113 1
+R14
+R15
+Etimer
+Z77 w1585787910
+R75
+R3
+R4
+R5
+R6
+Z78 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/timer.vhd
+Z79 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/timer.vhd
+l0
+L6
+VnAQe0QJEhP9JhbhGmjR`n1
+!s100 W95?KfBe?>`U?^Qga[HF21
+R9
+32
+Z80 !s110 1586232529
+!i10b 1
+R35
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/timer.vhd|
+Z82 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/timer.vhd|
+!i113 1
+R14
+R15
+Astr
+R75
+R3
+R4
+R5
+R76
+l19
+L17
+VS=]KUL4=1:ic]i9FFNAhI3
+!s100 X2[VK;WVnk_Eai;ho]X:k0
+R9
+32
+R80
+!i10b 1
+R35
+R81
+R82
+!i113 1
+R14
+R15
+Euser_app
+Z83 w1586203308
+R2
+R3
+R1
+R4
+R5
+R6
+Z84 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app.vhd
+Z85 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app.vhd
+l0
+L10
+VRCUQfWZK=89ok<SRO03T`0
+!s100 BRECU<EmiJeb;o@kk4DZo0
+R9
+32
+R80
+!i10b 1
+Z86 !s108 1586232529.000000
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app.vhd|
+Z88 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app.vhd|
+!i113 1
+R14
+R15
+Adefault
+R16
+R30
+R31
+R38
+R45
+R63
+R51
+R2
+R3
+R1
+R4
+R5
+Z89 DEx4 work 8 user_app 0 22 RCUQfWZK=89ok<SRO03T`0
+l49
+L25
+Vkzhd<TFP:dCLc@IZd?aU01
+!s100 ah<4I4e]a<KP?F@k<`h671
+R9
+32
+R80
+!i10b 1
+R86
+R87
+R88
+!i113 1
+R14
+R15
+Euser_app_tb
+Z90 w1586221550
+R2
+R1
+R3
+R4
+R5
+R6
+Z91 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app_tb.vhd
+Z92 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app_tb.vhd
+l0
+L11
+VVmZ4HhMA><kTNSz8]0UV`1
+!s100 1g>Xj[g2T=B>N[0ikoSdO1
+R9
+32
+R80
+!i10b 1
+R86
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app_tb.vhd|
+Z94 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app_tb.vhd|
+!i113 1
+R14
+R15
+Abehavior
+R89
+R2
+R1
+R3
+R4
+R5
+DEx4 work 11 user_app_tb 0 22 VmZ4HhMA><kTNSz8]0UV`1
+l32
+L14
+Vj5]2Hfnn1^cXIGPCkmcbY2
+!s100 J_@Cn<e]W@QQ]ZhOc[0ig2
+R9
+32
+R80
+!i10b 1
+R86
+R93
+R94
+!i113 1
+R14
+R15
+Puser_pkg
+R1
+R3
+R4
+R5
+w1586211004
+R6
+8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_pkg.vhd
+FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_pkg.vhd
+l0
+L10
+VEI_gSo?M5Mf7<C9[nk1lD3
+!s100 Oj85DDZ;kN4A]Dg=PNA4h0
+R9
+32
+R80
+!i10b 1
+R86
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_pkg.vhd|
+!s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_pkg.vhd|
+!i113 1
+R14
+R15
+Ewrapper
+Z95 w1585764346
+R1
+R3
+R4
+R5
+R6
+Z96 8D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/wrapper.vhd
+Z97 FD:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/wrapper.vhd
+l0
+L11
+VG0AlmT38mAn1kCAEBW_X<0
+!s100 K=JCN62]`6U::SFM7_:VY3
+R9
+32
+R10
+!i10b 1
+R11
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/wrapper.vhd|
+Z99 !s107 D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/wrapper.vhd|
+!i113 1
+R14
+R15
+Adefault
+R2
+R89
+R1
+R3
+R4
+R5
+DEx4 work 7 wrapper 0 22 G0AlmT38mAn1kCAEBW_X<0
+l27
+L25
+Vk[FEI[n4@N`j?=<4^ZjRO3
+!s100 28MbYVd2iE_<VAI:_n7Kc1
+R9
+32
+R10
+!i10b 1
+R11
+R98
+R99
+!i113 1
+R14
+R15

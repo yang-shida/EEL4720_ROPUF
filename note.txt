@@ -1,0 +1,7 @@
+Intra-Hamming distance:
+    - Give same input to a PUF multiple times, check number of different output bits
+    - expected 0%
+
+Inter-Hamming distance:
+    - Give same input to two PUFs, check number of different output bits
+    - expected 50%

@@ -1,0 +1,181 @@
+D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/comparator.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/comparator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity comparator
+-- Compiling architecture STR of comparator
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pkg
+-- Compiling package user_pkg
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ram.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram
+-- Compiling architecture ASYNC_READ of ram
+-- Compiling architecture SYNC_READ_DURING_WRITE of ram
+-- Loading entity ram
+-- Compiling architecture SYNC_READ of ram
+-- Loading entity ram
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/RO.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/RO.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RO
+-- Compiling architecture bhv of RO
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/wrapper.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/wrapper.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pkg
+-- Compiling entity wrapper
+-- Compiling architecture default of wrapper
+-- Loading package user_pkg
+-- Loading entity user_app
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ROPUF.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/ROPUF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pkg
+-- Loading package user_pkg
+-- Compiling entity ROPUF
+-- Compiling architecture bhv of ROPUF
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity RO
+-- Loading entity mux_generator
+-- Loading entity counter
+-- Loading package MATH_REAL
+-- Loading entity timer
+-- Loading entity comparator
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd {2 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pkg
+-- Loading package user_pkg
+-- Compiling entity memory_map
+-- Compiling architecture BHV of memory_map
+** Warning: D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd(73): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd(75): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd(95): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd(97): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/memory_map.vhd(100): (vcom-1937) Choice in CASE statement alternative must be locally static.
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pkg
+-- Loading package user_pkg
+-- Compiling entity user_app
+-- Compiling architecture default of user_app
+-- Loading entity memory_map
+-- Loading entity ram
+-- Loading entity datapath
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl
+-- Loading entity addr_gen
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/config_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/config_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package config_pkg
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/datapath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pkg
+-- Loading package user_pkg
+-- Compiling entity datapath
+-- Compiling architecture Behavioral of datapath
+-- Loading entity ROPUF
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/counter.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter
+-- Compiling architecture STR of counter
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/mux_generator.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/mux_generator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pkg
+-- Loading package user_pkg
+-- Compiling entity mux_generator
+-- Compiling architecture rtl of mux_generator
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/timer.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/timer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity timer
+-- Compiling architecture STR of timer
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pkg
+-- Loading package user_pkg
+-- Compiling entity user_app_tb
+-- Compiling architecture behavior of user_app_tb
+-- Loading entity user_app
+
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/addr_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/addr_gen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pkg
+-- Loading package user_pkg
+-- Compiling entity addr_gen
+-- Compiling architecture bhv of addr_gen
+
+} {} {}}
