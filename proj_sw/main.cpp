@@ -153,15 +153,9 @@ int main(int argc, char* argv[]) {
   else{
 
     //generate input
-    // for(int curr_test=0; curr_test<TEST_SIZE; curr_test++){
-    //   for(int curr_input=0; curr_input<PUF_OUTPUT_WIDTH; curr_input++){
-    //     input[curr_test][curr_input]=get_rand_num(PUF_INPUT_WIDTH);
-    //   }
-    // }
-
     for(int curr_test=0; curr_test<TEST_SIZE; curr_test++){
       for(int curr_input=0; curr_input<PUF_OUTPUT_WIDTH; curr_input++){
-        input[curr_test][curr_input]=(3<<8)|3;
+        input[curr_test][curr_input]=get_rand_num(PUF_INPUT_WIDTH);
       }
     }
 
