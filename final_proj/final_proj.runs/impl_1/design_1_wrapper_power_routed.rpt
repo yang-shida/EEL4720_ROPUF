@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Wed Apr 15 15:52:15 2020
+| Date             : Fri Apr 17 17:12:24 2020
 | Host             : Loading running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -33,7 +33,7 @@ Table of Contents
 | Total On-Chip Power (W)  | 1.793        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.635        |
+| Dynamic (W)              | 1.636        |
 | Device Static (W)        | 0.158        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 64.3         |
@@ -52,16 +52,16 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.009 |        3 |       --- |             --- |
+| Clocks                  |     0.010 |        3 |       --- |             --- |
 | Slice Logic             |     0.002 |     9666 |       --- |             --- |
-|   LUT as Logic          |     0.002 |     5337 |     53200 |           10.03 |
+|   LUT as Logic          |     0.002 |     7673 |     53200 |           14.42 |
 |   CARRY4                |    <0.001 |      107 |     13300 |            0.80 |
 |   Register              |    <0.001 |     1323 |    106400 |            1.24 |
 |   LUT as Shift Register |    <0.001 |       47 |     17400 |            0.27 |
 |   F7/F8 Muxes           |    <0.001 |      102 |     53200 |            0.19 |
 |   BUFG                  |    <0.001 |        3 |        32 |            9.38 |
 |   Others                |     0.000 |      211 |       --- |             --- |
-| Signals                 |     0.005 |     9184 |       --- |             --- |
+| Signals                 |     0.005 |     9320 |       --- |             --- |
 | Block RAM               |     0.090 |      136 |       140 |           97.14 |
 | PS7                     |     1.529 |        1 |       --- |             --- |
 | Static Power            |     0.158 |          |           |                 |
@@ -75,7 +75,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.118 |       0.098 |      0.020 |
+| Vccint    |       1.000 |     0.119 |       0.099 |      0.020 |
 | Vccaux    |       1.800 |     0.016 |       0.000 |      0.016 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -151,8 +151,8 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| design_1_wrapper         |     1.635 |
-|   design_1_i             |     1.635 |
+| design_1_wrapper         |     1.636 |
+|   design_1_i             |     1.636 |
 |     accelerator_0        |     0.097 |
 |       U0                 |     0.097 |
 |     processing_system7_0 |     1.530 |
