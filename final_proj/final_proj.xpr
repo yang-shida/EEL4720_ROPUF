@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="44" Path="D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.xpr">
+<Project Version="7" Minor="44" Path="D:/UF_HW/2020_spring_hw/EEL4720/EEL4720_ROPUF/final_proj/final_proj.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="a140de58b24b4579a50ffb7cb00e55eb"/>
@@ -68,11 +68,11 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="design_1.bd" FileRelPathName="ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xci">
-          <Proxy FileSetName="design_1_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="design_1.bd" FileRelPathName="ip/design_1_accelerator_0_0/design_1_accelerator_0_0.xci">
           <Proxy FileSetName="design_1_accelerator_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_1.bd" FileRelPathName="ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xci">
+          <Proxy FileSetName="design_1_processing_system7_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="design_1.bd" FileRelPathName="ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xci">
           <Proxy FileSetName="design_1_rst_ps7_0_100M_0"/>
