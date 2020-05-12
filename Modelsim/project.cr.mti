@@ -155,6 +155,17 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity timer
 -- Compiling architecture STR of timer
 
+} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/addr_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/addr_gen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pkg
+-- Loading package user_pkg
+-- Compiling entity addr_gen
+-- Compiling architecture bhv of addr_gen
+
 } {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/user_app_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -166,16 +177,5 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity user_app_tb
 -- Compiling architecture behavior of user_app_tb
 -- Loading entity user_app
-
-} {} {}} D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/addr_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0/src/addr_gen.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package config_pkg
--- Loading package user_pkg
--- Compiling entity addr_gen
--- Compiling architecture bhv of addr_gen
 
 } {} {}}
