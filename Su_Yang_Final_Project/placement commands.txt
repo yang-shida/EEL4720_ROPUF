@@ -1,0 +1,96 @@
+for {set i 0} {$i<=49} {incr i} {
+for {set j 32} {$j<=89} {incr j} {
+unplace_cell [get_cells -of [get_sites SLICE_X[expr $j]Y[expr $i]]]
+}
+}
+
+set data(0) 36
+set data(1) 40
+set data(2) 44
+set data(3) 50
+set data(4) 56
+set data(5) 60
+set data(6) 64
+set data(7) 68
+set data(8) 72
+set data(9) 76
+set data(10) 82
+
+set count 0
+for {set i 0} {$i<=49 && $count<=255} {incr i 2} {
+for {set j 0} {$j<=10 && $count<=255} {incr j} {
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_1_inferred__0_i_1 SLICE_X[expr $data($j)]Y[expr $i]/D6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_1_inst SLICE_X[expr $data($j)]Y[expr $i]/C6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_3_inst SLICE_X[expr $data($j)]Y[expr $i]/B6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_5_inst SLICE_X[expr $data($j)]Y[expr $i]/A6LUT
+incr count
+}
+}
+
+set count 0
+for {set i 0} {$i<=49 && $count<=255} {incr i 2} {
+for {set j 0} {$j<=10 && $count<=255} {incr j} {
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_7_inst SLICE_X[expr $data($j)+1]Y[expr $i]/D6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_9_inst SLICE_X[expr $data($j)+1]Y[expr $i]/C6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_10_inferred__0_i_1 SLICE_X[expr $data($j)+1]Y[expr $i]/B6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_11_inst SLICE_X[expr $data($j)+1]Y[expr $i]/A6LUT
+incr count
+}
+}
+
+set count 0
+for {set i 0} {$i<=49 && $count<=255} {incr i 2} {
+for {set j 0} {$j<=10 && $count<=255} {incr j} {
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_13_inst SLICE_X[expr $data($j)+2]Y[expr $i]/D6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_15_inst SLICE_X[expr $data($j)+2]Y[expr $i]/C6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_17_inst SLICE_X[expr $data($j)+2]Y[expr $i]/B6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_19_inst SLICE_X[expr $data($j)+2]Y[expr $i]/A6LUT
+incr count
+}
+}
+
+set count 0
+for {set i 0} {$i<=49 && $count<=255} {incr i 2} {
+for {set j 0} {$j<=10 && $count<=255} {incr j} {
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_21_inst SLICE_X[expr $data($j)+3]Y[expr $i]/D6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_23_inst SLICE_X[expr $data($j)+3]Y[expr $i]/C6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_25_inst SLICE_X[expr $data($j)+3]Y[expr $i]/B6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_27_inst SLICE_X[expr $data($j)+3]Y[expr $i]/A6LUT
+incr count
+}
+}
+
+set count 0
+for {set i 1} {$i<=49 && $count<=255} {incr i 2} {
+for {set j 0} {$j<=10 && $count<=255} {incr j} {
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_29_inst SLICE_X[expr $data($j)]Y[expr $i]/D6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_31_inst SLICE_X[expr $data($j)]Y[expr $i]/C6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_33_inst SLICE_X[expr $data($j)]Y[expr $i]/B6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_35_inst SLICE_X[expr $data($j)]Y[expr $i]/A6LUT
+incr count
+}
+}
+
+set count 0
+for {set i 1} {$i<=49 && $count<=255} {incr i 2} {
+for {set j 0} {$j<=10 && $count<=255} {incr j} {
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_37_inst SLICE_X[expr $data($j)+1]Y[expr $i]/D6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_39_inst SLICE_X[expr $data($j)+1]Y[expr $i]/C6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_41_inst SLICE_X[expr $data($j)+1]Y[expr $i]/B6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_43_inst SLICE_X[expr $data($j)+1]Y[expr $i]/A6LUT
+incr count
+}
+}
+
+set count 0
+for {set i 1} {$i<=49 && $count<=255} {incr i 2} {
+for {set j 0} {$j<=10 && $count<=255} {incr j} {
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_45_inst SLICE_X[expr $data($j)+2]Y[expr $i]/D6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_47_inst SLICE_X[expr $data($j)+2]Y[expr $i]/C6LUT
+place_cell design_1_i/accelerator_0/U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/rings[$count].ROs/inout2_49_inst SLICE_X[expr $data($j)+2]Y[expr $i]/B6LUT
+incr count
+}
+}
+
+Command Reference:
+http://www.cs.cmu.edu/~tanja/Lectures/JRTkDoc/JanusBasics/BasicTcl.html

@@ -32,6 +32,9 @@ float avg_inter_HD(uint32_t data1[], uint32_t data2[], unsigned len);
 
 int main(int argc, char** argv){
 
+    srand(time(0));
+    int rand_int=rand()&0xFF;
+
     if(atoi(argv[2])==1){
         cout<<"Doing Intra-HD Test:"<<endl;
 
@@ -48,8 +51,14 @@ int main(int argc, char** argv){
         fstream fs;
 
         while(!board1_done){
-            string str="zed_schedule.py ./zed_app proj.bit "+string(argv[1])+" 1 > temp.txt";
-            system(str.c_str());
+            if(argv[1]==0){
+                string str="zed_schedule.py ./zed_app proj.bit "+to_string(rand_int)+" 1 > temp.txt";
+                system(str.c_str());
+            }
+            else{
+                string str="zed_schedule.py ./zed_app proj.bit "+string(argv[1])+" 1 > temp.txt";
+                system(str.c_str());
+            }
             parseFile_return_t retVal=SUCCESS;
             fs.open("temp.txt");
 
@@ -111,8 +120,14 @@ int main(int argc, char** argv){
         cout<<"......."<<endl;
 
         while(!board1_done){
-            string str="zed_schedule.py ./zed_app proj.bit "+string(argv[1])+" 0 > temp.txt";
-            system(str.c_str());
+            if(argv[1]==0){
+                string str="zed_schedule.py ./zed_app proj.bit "+to_string(rand_int)+" 0 > temp.txt";
+                system(str.c_str());
+            }
+            else{
+                string str="zed_schedule.py ./zed_app proj.bit "+string(argv[1])+" 0 > temp.txt";
+                system(str.c_str());
+            }
 
             parseFile_return_t retVal=parseFile(po1);
 
@@ -135,8 +150,14 @@ int main(int argc, char** argv){
         cout<<"......."<<endl;
 
         while(!board2_done){
-            string str="zed_schedule.py ./zed_app proj.bit "+string(argv[1])+" 0 > temp.txt";
-            system(str.c_str());
+            if(argv[1]==0){
+                string str="zed_schedule.py ./zed_app proj.bit "+to_string(rand_int)+" 0 > temp.txt";
+                system(str.c_str());
+            }
+            else{
+                string str="zed_schedule.py ./zed_app proj.bit "+string(argv[1])+" 0 > temp.txt";
+                system(str.c_str());
+            }
 
             parseFile_return_t retVal=parseFile(po2);
 
