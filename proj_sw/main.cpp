@@ -159,8 +159,6 @@ int main(int argc, char* argv[]) {
       }
     }
 
-    
-
     //clear all output
     for(int curr_test=0; curr_test<TEST_SIZE; curr_test++){
       for(int curr_trial=0; curr_trial<NUMBER_OF_TRIALS; curr_trial++){

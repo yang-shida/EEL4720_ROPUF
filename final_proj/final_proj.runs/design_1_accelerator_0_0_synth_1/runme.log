@@ -18,64 +18,64 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 1976 
+INFO: Helper process launched with PID 21380 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 872.781 ; gain = 234.152
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 872.609 ; gain = 235.199
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'design_1_accelerator_0_0' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ip/design_1_accelerator_0_0/synth/design_1_accelerator_0_0.vhd:85]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'accelerator_v1_0' declared at 'd:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/hdl/accelerator_v1_0.vhd:5' bound to instance 'U0' of component 'accelerator_v1_0' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ip/design_1_accelerator_0_0/synth/design_1_accelerator_0_0.vhd:149]
-INFO: [Synth 8-638] synthesizing module 'accelerator_v1_0' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/hdl/accelerator_v1_0.vhd:49]
+INFO: [Synth 8-3491] module 'accelerator_v1_0' declared at 'd:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/hdl/accelerator_v1_0.vhd:5' bound to instance 'U0' of component 'accelerator_v1_0' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ip/design_1_accelerator_0_0/synth/design_1_accelerator_0_0.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'accelerator_v1_0' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/hdl/accelerator_v1_0.vhd:49]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 20 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'accelerator_v1_0_S00_AXI' declared at 'd:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/hdl/accelerator_v1_0_S00_AXI.vhd:13' bound to instance 'accelerator_v1_0_S00_AXI_inst' of component 'accelerator_v1_0_S00_AXI' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/hdl/accelerator_v1_0.vhd:85]
-INFO: [Synth 8-638] synthesizing module 'accelerator_v1_0_S00_AXI' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/hdl/accelerator_v1_0_S00_AXI.vhd:93]
+INFO: [Synth 8-3491] module 'accelerator_v1_0_S00_AXI' declared at 'd:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/hdl/accelerator_v1_0_S00_AXI.vhd:13' bound to instance 'accelerator_v1_0_S00_AXI_inst' of component 'accelerator_v1_0_S00_AXI' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/hdl/accelerator_v1_0.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'accelerator_v1_0_S00_AXI' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/hdl/accelerator_v1_0_S00_AXI.vhd:93]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 20 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'wrapper' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/wrapper.vhd:25]
-INFO: [Synth 8-638] synthesizing module 'user_app' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/user_app.vhd:25]
-INFO: [Synth 8-638] synthesizing module 'memory_map' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/memory_map.vhd:41]
-INFO: [Synth 8-226] default block is never used [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/memory_map.vhd:117]
-INFO: [Synth 8-256] done synthesizing module 'memory_map' (1#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/memory_map.vhd:41]
-INFO: [Synth 8-638] synthesizing module 'ram_sync_read' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/ram.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'wrapper' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/wrapper.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'user_app' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/user_app.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'memory_map' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/memory_map.vhd:41]
+INFO: [Synth 8-226] default block is never used [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/memory_map.vhd:117]
+INFO: [Synth 8-256] done synthesizing module 'memory_map' (1#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/memory_map.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'ram_sync_read' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/ram.vhd:117]
 	Parameter num_words bound to: 262144 - type: integer 
 	Parameter word_width bound to: 32 - type: integer 
 	Parameter addr_width bound to: 18 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'ram_sync_read' (2#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/ram.vhd:117]
-INFO: [Synth 8-638] synthesizing module 'ram_sync_read__parameterized0' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/ram.vhd:117]
+INFO: [Synth 8-256] done synthesizing module 'ram_sync_read' (2#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/ram.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'ram_sync_read__parameterized0' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/ram.vhd:117]
 	Parameter num_words bound to: 262144 - type: integer 
 	Parameter word_width bound to: 17 - type: integer 
 	Parameter addr_width bound to: 18 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'ram_sync_read__parameterized0' (2#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/ram.vhd:117]
-INFO: [Synth 8-638] synthesizing module 'datapath' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/datapath.vhd:14]
-INFO: [Synth 8-638] synthesizing module 'ROPUF' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/ROPUF.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ram_sync_read__parameterized0' (2#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/ram.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'datapath' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/datapath.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'ROPUF' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/ROPUF.vhd:15]
 	Parameter MS_CLOCK_PERIOD bound to: 50 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'RO' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/RO.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'RO' (3#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/RO.vhd:14]
-INFO: [Synth 8-638] synthesizing module 'mux_generator' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/mux_generator.vhd:15]
-INFO: [Synth 8-256] done synthesizing module 'mux_generator' (4#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/mux_generator.vhd:15]
-INFO: [Synth 8-638] synthesizing module 'counter' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/counter.vhd:13]
-WARNING: [Synth 8-614] signal 'count' is read in the process but is not in the sensitivity list [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/counter.vhd:17]
-INFO: [Synth 8-256] done synthesizing module 'counter' (5#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/counter.vhd:13]
-INFO: [Synth 8-638] synthesizing module 'timer' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/timer.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'RO' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/RO.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'RO' (3#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/RO.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'mux_generator' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/mux_generator.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'mux_generator' (4#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/mux_generator.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'counter' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/counter.vhd:13]
+WARNING: [Synth 8-614] signal 'count' is read in the process but is not in the sensitivity list [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/counter.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'counter' (5#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/counter.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'timer' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/timer.vhd:17]
 	Parameter ms_period bound to: 50 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'timer' (6#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/timer.vhd:17]
-INFO: [Synth 8-638] synthesizing module 'comparator' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/comparator.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'comparator' (7#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/comparator.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'ROPUF' (8#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/ROPUF.vhd:15]
-INFO: [Synth 8-256] done synthesizing module 'datapath' (9#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/datapath.vhd:14]
-INFO: [Synth 8-638] synthesizing module 'ctrl' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/ctrl.vhd:23]
-INFO: [Synth 8-256] done synthesizing module 'ctrl' (10#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/ctrl.vhd:23]
-INFO: [Synth 8-638] synthesizing module 'addr_gen' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/addr_gen.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'addr_gen' (11#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/addr_gen.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'user_app' (12#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/user_app.vhd:25]
-INFO: [Synth 8-256] done synthesizing module 'wrapper' (13#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/wrapper.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element axi_araddr_reg was removed.  [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/hdl/accelerator_v1_0_S00_AXI.vhd:249]
-INFO: [Synth 8-256] done synthesizing module 'accelerator_v1_0_S00_AXI' (14#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/hdl/accelerator_v1_0_S00_AXI.vhd:93]
-INFO: [Synth 8-256] done synthesizing module 'accelerator_v1_0' (15#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/hdl/accelerator_v1_0.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'timer' (6#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/timer.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'comparator' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/comparator.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'comparator' (7#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/comparator.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'ROPUF' (8#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/ROPUF.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (9#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/datapath.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'ctrl' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/ctrl.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'ctrl' (10#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/ctrl.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'addr_gen' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/addr_gen.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'addr_gen' (11#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/addr_gen.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'user_app' (12#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/user_app.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'wrapper' (13#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/wrapper.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element axi_araddr_reg was removed.  [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/hdl/accelerator_v1_0_S00_AXI.vhd:249]
+INFO: [Synth 8-256] done synthesizing module 'accelerator_v1_0_S00_AXI' (14#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/hdl/accelerator_v1_0_S00_AXI.vhd:93]
+INFO: [Synth 8-256] done synthesizing module 'accelerator_v1_0' (15#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/hdl/accelerator_v1_0.vhd:49]
 INFO: [Synth 8-256] done synthesizing module 'design_1_accelerator_0_0' (16#1) [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ip/design_1_accelerator_0_0/synth/design_1_accelerator_0_0.vhd:85]
 WARNING: [Synth 8-3331] design datapath has unconnected port challenge[31]
 WARNING: [Synth 8-3331] design datapath has unconnected port challenge[30]
@@ -106,7 +106,7 @@ WARNING: [Synth 8-3331] design accelerator_v1_0_S00_AXI has unconnected port S_A
 WARNING: [Synth 8-3331] design accelerator_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
 WARNING: [Synth 8-3331] design accelerator_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1228.027 ; gain = 589.398
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.875 ; gain = 590.465
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -119,12 +119,12 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1228.027 ; gain = 589.398
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1227.875 ; gain = 590.465
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1228.027 ; gain = 589.398
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1227.875 ; gain = 590.465
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1228.027 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1227.875 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -135,20 +135,20 @@ Parsing XDC File [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.
 Finished Parsing XDC File [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/design_1_accelerator_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1228.027 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1227.875 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.240 . Memory (MB): peak = 1228.027 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.251 . Memory (MB): peak = 1227.875 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1228.027 ; gain = 589.398
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1227.875 ; gain = 590.465
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1228.027 ; gain = 589.398
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1227.875 ; gain = 590.465
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -7579,10 +7579,10 @@ Applied set_property DONT_TOUCH = true for U0/accelerator_v1_0_S00_AXI_inst/U_WR
 Applied set_property DONT_TOUCH = true for U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_DATAPATH/ROPUF1/\rings[255].ROs /inout2_10. (constraint file  d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ip/design_1_accelerator_0_0/no_touch_RO.xdc, line 3).
 Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/design_1_accelerator_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1228.027 ; gain = 589.398
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1227.875 ; gain = 590.465
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ctrl'
-WARNING: [Synth 8-327] inferring latch for variable 'output_reg' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/counter.vhd:20]
+WARNING: [Synth 8-327] inferring latch for variable 'output_reg' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/counter.vhd:20]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -7594,9 +7594,9 @@ WARNING: [Synth 8-327] inferring latch for variable 'output_reg' [d:/UF_HW/2020_
                   wait_1 |                              101 |                              010
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ctrl'
-WARNING: [Synth 8-327] inferring latch for variable 'done_reg' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/ctrl.vhd:60]
+WARNING: [Synth 8-327] inferring latch for variable 'done_reg' [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/ctrl.vhd:60]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1278.152 ; gain = 639.523
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:54 ; elapsed = 00:00:57 . Memory (MB): peak = 1279.895 ; gain = 642.484
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -7712,7 +7712,7 @@ WARNING: [Synth 8-3331] design accelerator_v1_0 has unconnected port s00_axi_ara
 WARNING: [Synth 8-3331] design accelerator_v1_0 has unconnected port s00_axi_arprot[2]
 WARNING: [Synth 8-3331] design accelerator_v1_0 has unconnected port s00_axi_arprot[1]
 WARNING: [Synth 8-3331] design accelerator_v1_0 has unconnected port s00_axi_arprot[0]
-WARNING: [Synth 8-3936] Found unconnected internal register 'accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_IN/rdata_reg' and it is trimmed from '32' to '16' bits. [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/9d42/src/ram.vhd:131]
+WARNING: [Synth 8-3936] Found unconnected internal register 'accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_IN/rdata_reg' and it is trimmed from '32' to '16' bits. [d:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/ipshared/6823/src/ram.vhd:131]
 INFO: [Synth 8-5784] Optimized 16 bits of RAM "accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_OUT/memory_reg" due to constant propagation. Old ram width 17 bits, new ram width 1 bits.
 INFO: [Synth 8-3886] merging instance 'U0/accelerator_v1_0_S00_AXI_insti_0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_IN/memory_reg_mux_sel__71' (FD) to 'U0/accelerator_v1_0_S00_AXI_insti_0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_IN/memory_reg_mux_sel__78'
 INFO: [Synth 8-3886] merging instance 'U0/accelerator_v1_0_S00_AXI_insti_0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_IN/memory_reg_mux_sel__39' (FD) to 'U0/accelerator_v1_0_S00_AXI_insti_0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_IN/memory_reg_mux_sel__78'
@@ -7813,7 +7813,7 @@ WARNING: [Synth 8-3332] Sequential element (accelerator_v1_0_S00_AXI_inst/U_WRAP
 WARNING: [Synth 8-3332] Sequential element (accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_OUT/memory_reg_mux_sel__0) is unused and will be removed from module accelerator_v1_0.
 WARNING: [Synth 8-3332] Sequential element (accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_OUT/memory_reg_mux_sel__2) is unused and will be removed from module accelerator_v1_0.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -7841,13 +7841,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:16 ; elapsed = 00:01:20 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:18 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished Timing Optimization : Time (s): cpu = 00:01:17 ; elapsed = 00:01:21 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -7942,7 +7942,7 @@ INFO: [Synth 8-7053] The timing for the instance U0/accelerator_v1_0_S00_AXI_ins
 INFO: [Synth 8-7053] The timing for the instance U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_OUT/memory_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7053] The timing for the instance U0/accelerator_v1_0_S00_AXI_inst/U_WRAPPER/U_USER_APP/U_MEM_OUT/memory_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished Technology Mapping : Time (s): cpu = 00:01:20 ; elapsed = 00:01:25 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -7982,13 +7982,13 @@ INFO: [Synth 8-6064] Net n_0_547 is driving 32 big block pins (URAM, BRAM and DS
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:22 ; elapsed = 00:01:27 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished IO Insertion : Time (s): cpu = 00:01:26 ; elapsed = 00:01:31 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:22 ; elapsed = 00:01:27 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:26 ; elapsed = 00:01:31 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -8007,25 +8007,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:23 ; elapsed = 00:01:28 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:27 ; elapsed = 00:01:31 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:23 ; elapsed = 00:01:28 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:27 ; elapsed = 00:01:31 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:23 ; elapsed = 00:01:28 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:27 ; elapsed = 00:01:32 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:23 ; elapsed = 00:01:28 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:27 ; elapsed = 00:01:32 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -8337,18 +8337,18 @@ Report Instance Areas:
 |273   |          U_OUT_GEN               |addr_gen_0                    |    46|
 +------+----------------------------------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:23 ; elapsed = 00:01:28 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:27 ; elapsed = 00:01:32 . Memory (MB): peak = 1321.055 ; gain = 683.645
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 49 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:06 ; elapsed = 00:01:25 . Memory (MB): peak = 1322.852 ; gain = 684.223
-Synthesis Optimization Complete : Time (s): cpu = 00:01:23 ; elapsed = 00:01:28 . Memory (MB): peak = 1322.852 ; gain = 684.223
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:09 ; elapsed = 00:01:29 . Memory (MB): peak = 1321.055 ; gain = 683.645
+Synthesis Optimization Complete : Time (s): cpu = 00:01:27 ; elapsed = 00:01:32 . Memory (MB): peak = 1321.055 ; gain = 683.645
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.088 . Memory (MB): peak = 1322.852 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 1321.055 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 528 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1322.852 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1321.055 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 201 instances were transformed.
   LD => LDCE: 1 instance 
@@ -8357,17 +8357,17 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 202 Infos, 79 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:31 ; elapsed = 00:01:37 . Memory (MB): peak = 1322.852 ; gain = 985.316
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1322.852 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:35 ; elapsed = 00:01:41 . Memory (MB): peak = 1321.055 ; gain = 983.160
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1321.055 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/design_1_accelerator_0_0_synth_1/design_1_accelerator_0_0.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_accelerator_0_0, cache-ID = 86a9f84fc0222dc5
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_accelerator_0_0, cache-ID = d81d915781317582
 INFO: [Coretcl 2-1174] Renamed 272 cell refs.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1322.852 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1321.055 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/design_1_accelerator_0_0_synth_1/design_1_accelerator_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_accelerator_0_0_utilization_synth.rpt -pb design_1_accelerator_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 15 16:57:39 2020...
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  7 10:18:55 2020...

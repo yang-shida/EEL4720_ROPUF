@@ -18,33 +18,13 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: Launching helper process for spawning children vivado processes
-<<<<<<< HEAD
-INFO: Helper process launched with PID 14540 
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 880.117 ; gain = 234.551
-=======
 INFO: Helper process launched with PID 4728 
 ---------------------------------------------------------------------------------
 Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 881.230 ; gain = 235.012
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:40]
 INFO: [Synth 8-3491] module 'design_1' declared at 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:591' bound to instance 'design_1_i' of component 'design_1' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:67]
 INFO: [Synth 8-638] synthesizing module 'design_1' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:621]
-<<<<<<< HEAD
-INFO: [Synth 8-3491] module 'design_1_accelerator_0_0' declared at 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-13992-Loading/realtime/design_1_accelerator_0_0_stub.vhdl:5' bound to instance 'accelerator_0' of component 'design_1_accelerator_0_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:849]
-INFO: [Synth 8-638] synthesizing module 'design_1_accelerator_0_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-13992-Loading/realtime/design_1_accelerator_0_0_stub.vhdl:32]
-INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-13992-Loading/realtime/design_1_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:873]
-INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-13992-Loading/realtime/design_1_processing_system7_0_0_stub.vhdl:79]
-INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:398]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:80]
-INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-13992-Loading/realtime/design_1_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:263]
-INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-13992-Loading/realtime/design_1_auto_pc_0_stub.vhdl:70]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (1#1) [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:80]
-INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_0' (2#1) [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:398]
-INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_100M_0' declared at 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-13992-Loading/realtime/design_1_rst_ps7_0_100M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_100M' of component 'design_1_rst_ps7_0_100M_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:1010]
-INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_100M_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-13992-Loading/realtime/design_1_rst_ps7_0_100M_0_stub.vhdl:21]
-=======
 INFO: [Synth 8-3491] module 'design_1_accelerator_0_0' declared at 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-15376-Loading/realtime/design_1_accelerator_0_0_stub.vhdl:5' bound to instance 'accelerator_0' of component 'design_1_accelerator_0_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:849]
 INFO: [Synth 8-638] synthesizing module 'design_1_accelerator_0_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-15376-Loading/realtime/design_1_accelerator_0_0_stub.vhdl:32]
 INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-15376-Loading/realtime/design_1_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:873]
@@ -57,7 +37,6 @@ INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (1#1) [D:
 INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_0' (2#1) [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:398]
 INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_100M_0' declared at 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-15376-Loading/realtime/design_1_rst_ps7_0_100M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_100M' of component 'design_1_rst_ps7_0_100M_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:1010]
 INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_100M_0' [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/.Xil/Vivado-15376-Loading/realtime/design_1_rst_ps7_0_100M_0_stub.vhdl:21]
->>>>>>> manual_routing_test
 INFO: [Synth 8-256] done synthesizing module 'design_1' (3#1) [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/synth/design_1.vhd:621]
 INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (4#1) [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:40]
 WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_ACLK
@@ -65,11 +44,7 @@ WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_AR
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port ACLK
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port ARESETN
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 957.289 ; gain = 311.723
-=======
 Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 958.066 ; gain = 311.848
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -82,21 +57,12 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 957.289 ; gain = 311.723
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 957.289 ; gain = 311.723
----------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 957.289 ; gain = 0.000
-=======
 Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 958.066 ; gain = 311.848
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 958.066 ; gain = 311.848
 ---------------------------------------------------------------------------------
 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 958.066 ; gain = 0.000
->>>>>>> manual_routing_test
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -117,15 +83,6 @@ Parsing XDC File [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.
 Finished Parsing XDC File [D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-<<<<<<< HEAD
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 985.438 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 985.438 ; gain = 0.000
----------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 985.438 ; gain = 339.871
-=======
 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 983.414 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
@@ -133,18 +90,13 @@ No Unisim elements were transformed.
 Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 983.414 ; gain = 0.000
 ---------------------------------------------------------------------------------
 Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 983.414 ; gain = 337.195
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 985.438 ; gain = 339.871
-=======
 Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 983.414 ; gain = 337.195
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -416,17 +368,10 @@ Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph. (constra
 Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_100M. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 985.438 ; gain = 339.871
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 985.438 ; gain = 339.871
-=======
 Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 983.414 ; gain = 337.195
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 983.414 ; gain = 337.195
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -466,11 +411,7 @@ WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port 
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ACLK
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 985.438 ; gain = 339.871
-=======
 Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 983.414 ; gain = 337.195
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -482,21 +423,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1020.273 ; gain = 374.707
-=======
 Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1020.223 ; gain = 374.004
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1020.348 ; gain = 374.781
-=======
 Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1020.352 ; gain = 374.133
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -508,11 +441,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1030.395 ; gain = 384.828
-=======
 Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1030.074 ; gain = 383.855
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -536,21 +465,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1046.203 ; gain = 400.637
-=======
 Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1045.879 ; gain = 399.660
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1046.203 ; gain = 400.637
-=======
 Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1045.879 ; gain = 399.660
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -569,41 +490,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1046.203 ; gain = 400.637
-=======
 Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1045.879 ; gain = 399.660
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1046.203 ; gain = 400.637
-=======
 Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1045.879 ; gain = 399.660
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1046.203 ; gain = 400.637
-=======
 Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1045.879 ; gain = 399.660
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1046.203 ; gain = 400.637
-=======
 Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1045.879 ; gain = 399.660
->>>>>>> manual_routing_test
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -639,18 +544,6 @@ Report Instance Areas:
 |4     |      s00_couplers   |s00_couplers_imp_UYSKKA     |   177|
 +------+---------------------+----------------------------+------+
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1046.203 ; gain = 400.637
----------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 1046.203 ; gain = 372.488
-Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1046.203 ; gain = 400.637
-INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1046.203 ; gain = 0.000
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1069.680 ; gain = 0.000
-=======
 Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1045.879 ; gain = 399.660
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
@@ -661,26 +554,16 @@ Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Me
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1060.480 ; gain = 0.000
->>>>>>> manual_routing_test
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 29 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-<<<<<<< HEAD
-synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1073.691 ; gain = 730.254
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1073.691 ; gain = 0.000
-=======
 synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1064.523 ; gain = 720.781
 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1064.523 ; gain = 0.000
->>>>>>> manual_routing_test
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-<<<<<<< HEAD
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 15 16:58:24 2020...
-=======
 INFO: [Common 17-206] Exiting Vivado at Thu Apr 16 23:12:06 2020...
->>>>>>> manual_routing_test

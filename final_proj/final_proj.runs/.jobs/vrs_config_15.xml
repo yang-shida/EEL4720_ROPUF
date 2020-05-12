@@ -1,10 +1,6 @@
 <?xml version="1.0"?>
 <Runs Version="1" Minor="0">
-<<<<<<< HEAD
-	<Run Id="design_1_accelerator_0_0_synth_1" LaunchDir="D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/design_1_accelerator_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-=======
 	<Run Id="impl_1" LaunchDir="D:/UF_HW/2020_spring_hw/EEL4720/Project/final_proj/final_proj.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design"/>
->>>>>>> manual_routing_test
 	<Parameters>
 		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
 		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>

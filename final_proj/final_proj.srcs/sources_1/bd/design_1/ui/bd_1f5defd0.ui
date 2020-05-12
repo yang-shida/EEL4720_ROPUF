@@ -1,7 +1,7 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"1.06846",
-   "Default View_TopLeft":"2,-342",
+   "Default View_ScaleFactor":"0.709302",
+   "Default View_TopLeft":"-498,-320",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS-threadsafe
 #  -string -flagsOSRD
@@ -14,10 +14,10 @@ preplace inst accelerator_0 -pg 1 -lvl 1 -x 140 -y -190 -defaultsOSRD
 preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 30 0 240 160 650 -290 1040
 preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 670 -180n
 preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 4 20 -300 NJ -300 NJ -300 1030
-preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ -40 N -40 N
-preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 660J -260 NJ
-preplace netloc ps7_0_axi_periph_M00_AXI 1 0 5 30 -280 NJ -280 NJ -280 1020J -80 1320
 preplace netloc processing_system7_0_DDR 1 2 3 640J -270 1010 -70 N
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ -40 N -40 N
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 5 30 -280 NJ -280 NJ -280 1020J -80 1320
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 660J -260 NJ
 levelinfo -pg 1 0 140 440 840 1180 1340
 pagesize -pg 1 -db -bbox -sgen 0 -320 1450 200
 "

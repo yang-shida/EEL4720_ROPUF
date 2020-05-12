@@ -992,8 +992,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>accelerator_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>9</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2020-04-15T20:55:10Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>7</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2020-04-07T14:16:20Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ufl.edu:user:accelerator:1.0_ARCHIVE_LOCATION">C:/Users/gstitt/Desktop/rc_class/ip_repo/accelerator_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@77ee98c_ARCHIVE_LOCATION">c:/Users/zqcsx/Documents/Reconfig Computing EEL4720/FInal Project/provided_code/my_ip_repo/accelerator_1.0</xilinx:tag>
@@ -1095,28 +1095,6 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@3c04ac97_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2a11fdb9_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@3b92054a_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@27692d4d_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@32a8dd86_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@66cf270c_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d7b6ac2_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@57451250_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@59dc0f63_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@59ad56fb_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@40e348f5_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@690a7ea1_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@10b73852_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@d9409a1_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@409c288_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@44b76405_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a332ece_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@46ba113e_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@10d1d70d_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@15e2f84a_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4924f71e_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@489cab67_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a1dfb20_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6910ca22_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b890bac_ARCHIVE_LOCATION">d:/UF_HW/2020_spring_hw/EEL4720/Project/my_ip_repo/accelerator_1.0</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
